@@ -8,7 +8,7 @@
 </head>
 <body>
   <!-- Include the tag for introductory content -->
-
+    <header>
     <!-- Display sysk logo nested in an anchor tag to link to index.html -->
     <a href="../index.html"><img src="../images/sysk-logo.webp" alt="Stuff You Should Know's Logo"></a>
     <!-- Write the markup for a navigation and link items to appropriate pages -->
@@ -18,12 +18,12 @@
      </ul>
 
 
-    
+    </header>
   <!-- Add an element that represents the main content of the page --> 
-
+   <main role="main" id="main">
        
     <!-- Include a tag that groups the information about this particular podcast -->
-     
+     <section role="doppelgangers">
       <!-- Display image relevant to topic -->
      <img src="../images/doppelgangers.jpeg" alt="Two similar male silthouettes facing each other.">
       <!-- Main heading for the page --> 
@@ -38,15 +38,15 @@
       <a href="https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/doppelgangers-hey-you-youre-me-103115512/">Click here to play episode on iHeart</a> 
 
 
-
+     </section>
     <!-- Include a tag that groups the other two podcasts -->  
-
+     <section role="other-episodes">
       <!-- Section heading --> 
       <h2>You might also like...</h2> 
 
       
       <!-- Include a tag for independent, self-contained content content -->
-        
+        <article role="phrases">
         <!-- Section sub-heading -->
          <h3>Interesting Origins of Everday phrases</h3> 
 
@@ -56,10 +56,10 @@
         
         <!-- Link to existing html page within episodes directory; relevant to topic -->
         <a href="../episodes/everyday-phrases.html">Learn more</a> 
-      
+      </article>
 
       <!-- Include a tag for independent, self-contained content content -->
-        
+        <article role="fake-towns">
         <!-- Section sub-heading -->
        <h3>The History of Fake Towns</h3> 
         
@@ -69,9 +69,9 @@
         
         <!-- Link to existing html page within episodes directory; relevant to topic -->
         <a href="../episodes/fake-towns.html">Learn more</a> 
-      
-
-        
+      </article>
+      </section>
+   <main>
   <!-- Include the tag for footer content -->
   <footer>
   <p><small>&copy; SYSK 2023</small></p>
