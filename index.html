@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <title>Stuff You Should Know</title>
 </head>
 <body>
   <!-- Include the tag for introductory content -->
-    <header>
+    <header role="banner">
     <!-- Display stuff you should know logo nested in an anchor tag to link to index.html -->
   <a href="index.html"><img src="images/sysk-logo.webp" alt="Stuff You Should Know's Logo"></a>
     <!-- Write the markup for a navigation and link items to appropriate pages -->
-    <nav>
+    <nav role="navigation">
     <ul>
     <li><a href="about.html">About</a></li>
     <li><a href="episodes/episodes.html">Episodes</a></li>
@@ -21,12 +21,12 @@
   </header>
 
   <!-- Add an element that represents the main content of the page --> 
-    <main role="main" id="main">
+    <main role="main">
     <!-- Main heading for the page -->
     <h2>Stuff You Should Know Podcast</h2>
 
     <!-- Include a tag that groups the 'About' and 'Facts' content -->
-      <section role="about" id="about">  
+      <section>  
       <!-- Section heading -->
       <h3>About the Podcast</h3>
       
@@ -35,7 +35,7 @@
       The podcast, released every Tuesday and Thursday, educates listeners on a wide variety of topics, often using popular culture as a reference giving the podcast comedic value.
       </section>
       <!-- Section sub-heading, followed by a list -->
-      <section role="facts" id="facts">
+      <section>
       <h3>Facts about the show:</h3>
       <ul>
       <li>Show is downloaded more than 1 million times per week.</li> 
@@ -47,12 +47,12 @@
 
      </section>
     <!-- Include a tag that groups the 'Featured Episodes' content -->  
-     <section role="episodes" id="episodes">
+     <section>
       <!-- Section heading -->
       <h2>Featured Episodes</h2>
 
       <!-- Include a tag for independent, self-contained content content -->
-      <article role="phrases">
+      <article>
         <!-- Section sub-heading -->
         <h3>Interesting Origins of Everday Phrases</h3>
         
@@ -66,7 +66,7 @@
       </article>
 
       <!-- Include a tag for independent, self-contained content content -->
-      <article role="towns">
+      <article>
         <!-- Section sub-heading -->
         <h3>The History of Fake Towns</h3>
 
@@ -80,7 +80,7 @@
       </article>
 
       <!-- Include a tag for independent, self-contained content content -->
-        <article role="doppelgangers">
+        <article>
         <!-- Section sub-heading -->
         <h3>Doppelgängers: Hey you, you're me!</h3>
 
@@ -96,7 +96,7 @@
 
 
   <!-- Include the tag for footer content -->
-  <footer>
+  <footer role="contentinfo">
   <p><small>&copy; SYSK 2023</small></p>
   </footer> 
 
